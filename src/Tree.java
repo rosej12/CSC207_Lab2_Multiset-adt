@@ -15,7 +15,7 @@ public class Tree {
         this.root = root;
         this.subtrees = null;
     }
-    public Boolean is_empty() {
+    public boolean is_empty() {
         return this.root == null;
     }
 
